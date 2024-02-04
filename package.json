@@ -1,11 +1,18 @@
 {
-  "name": "olhelper",
+  "name": "@dullcat/olhelper",
   "version": "0.0.1",
-  "description": "",
+  "description": "A fast develop web gis application tool based on openlayers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "DullCat",
+  "license": "MIT",
+  "dependencies": {
+    "ol": "7.5.2",
+    "vitepress": "1.0.0-rc.41"
+  }
 }

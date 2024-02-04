@@ -13,3 +13,11 @@ function log(msg) {
 	console.log('log: ', msg);
 }
 export default log;
+
+
+function dialog(msg) {
+	alert(msg)
+	console.log('log: ', msg);
+}
+
+export {dialog};
