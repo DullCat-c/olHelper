@@ -1,6 +1,6 @@
 {
   "name": "@dullcat/olhelper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A fast develop web gis application tool based on openlayers",
   "main": "index.js",
   "scripts": {
