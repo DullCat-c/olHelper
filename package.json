@@ -2,7 +2,7 @@
   "name": "@dullcat/olhelper",
   "version": "0.0.4",
   "description": "A fast develop web gis application tool based on openlayers",
-  "main": "src/main.ts",
+  "main": "dist/olHelper.es.js",
   "packageManager": "pnpm@8.14.1",
   "scripts": {
     "dev": "vite",
