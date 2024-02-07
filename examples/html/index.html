@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>olHelper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+    <script type="module" src="../../dist/olHelper.es.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+</body>
+</html>
+
+<script type="module">
+  import {makeMap} from '../../dist/olHelper.es.js'
+  //天地图key
+  let map = makeMap({TDKey:''});
+</script>
+
+
+<style>
+    html body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #map{
+        width: 100vw;
+        height: 100vh;
+    }
+</style>

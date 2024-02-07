@@ -2,17 +2,32 @@
   "name": "@dullcat/olhelper",
   "version": "0.0.2",
   "description": "A fast develop web gis application tool based on openlayers",
-  "main": "index.js",
+  "main": "src/main.ts",
+  "packageManager": "pnpm@8.14.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "files": [
+    "LICENSE",
+    "dist",
+    "README.md"
+  ],
+  "keywords": [
+    "openlayers",
+    "gis"
+  ],
   "author": "DullCat",
   "license": "MIT",
   "dependencies": {
-    "ol": "7.5.2",
-    "vitepress": "1.0.0-rc.41"
+    "ol": "7.5.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitepress": "1.0.0-rc.41",
+    "vite": "^5.0.12"
   }
 }
