@@ -1,6 +1,6 @@
 {
   "name": "@dullcat/olhelper",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A fast develop web gis application tool based on openlayers",
   "main": "src/main.ts",
   "packageManager": "pnpm@8.14.1",
